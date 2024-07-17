@@ -1,0 +1,94 @@
+/* Main Container */
+.Login-rare-abc123 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    background-color: transparent;
+}
+
+/* Form Container */
+.item-rare-def456 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: transparent;
+}
+
+/* Form Styling */
+.form-rare-ghi789 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Input Styling */
+.input-rare-jkl012 {
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgba(17, 25, 40, 0.6);
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Label Styling */
+.label-rare-mno345 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Image Styling */
+.img-rare-pqr678 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Button Styling */
+.button-rare-stu901 {
+    padding: 15px;
+    border: none;
+    background-color: rgba(17, 25, 40, 0.6);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-rare-stu901:hover {
+    background-color: rgba(17, 25, 40, 0.8);
+}
+
+/* Separator Styling */
+.separator-rare-vwx234 {
+    height: 100%;
+    width: 1px;
+    background-color: rgba(17, 25, 40, 0.6);
+}
+
+
+.Login{
+    button{
+        &:disabled{
+            cursor: not-allowed;
+            background-color: #1f8ff19c;
+        }
+    }
+}
